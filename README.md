@@ -31,7 +31,7 @@ const n = Math.floor(Math.random()*result.length);
 - Math.random()で0~1未満(1は含まれない)の乱数を生成。
 -  Math.random() * nとすることで、n数分の乱数を生成
     -   例えば、n=5なら0~4までの五つの数が生成される。
-- 上記をMath.floorで小数点以下切り捨てで完成
+- 上記をMath.floorで小数点以下切り捨てで0~4までの五つの整数ができる。
 
 
 ## CSSについて
