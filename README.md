@@ -11,7 +11,7 @@ const btn = document.getElementById('btn');
 
 - addEventListenerでクリックイベントを追加する
 
-### JSでボタンの上にマウスがの買った時のスタイルを実装する方法
+### JSでボタンの上にマウスが乗った時のスタイルを実装する方法
 ```js
 btn.addEventListener('mouseover',function(event){
     console.log('OK');
