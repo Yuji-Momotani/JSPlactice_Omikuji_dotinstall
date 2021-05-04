@@ -24,7 +24,7 @@ btn.addEventListener('mouseout',function(event){
 ```
 - addEventListenerでmouseover(マウスが乗った時)、mouseout(マウスが外れた時)の処理を実装できる。
 
-### 乱数の生成
+### 整数の乱数を生成
 ```js
 const n = Math.floor(Math.random()*result.length);
 ```
